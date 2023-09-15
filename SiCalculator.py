@@ -7,11 +7,11 @@ from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
 
 # Create a class for the simple interest calculator
-class SimpleInterestCalculator(GridLayout):
+class bestcalc(GridLayout):
 
     # Initialize the layout
     def __init__(self, **kwargs):
-        super(SimpleInterestCalculator, self).__init__(**kwargs)
+        super(bestcalc, self).__init__(**kwargs)
         self.cols = 2
         
         # Add the necessary widgets
@@ -50,7 +50,7 @@ class SimpleInterestCalculator(GridLayout):
 # Create the app class
 class SimpleInterestApp(App):
     def build(self):
-        return SimpleInterestCalculator()
+        return bestcalc()
 
 # Run the app
 if __name__ == "__main__":
